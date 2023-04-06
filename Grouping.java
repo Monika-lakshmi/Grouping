@@ -2,7 +2,6 @@ public class PassengerAgeGroups {
     public static void main(String[] args) {
         int[] ageGroups = new int[6];
         int[] passengerAges = {23, 45, 12, 36, 17, 8, 54, 31, 28, 41, 60};
-        
         for(int age: passengerAges) {
             if(age <= 10) {
                 ageGroups[0]++;
